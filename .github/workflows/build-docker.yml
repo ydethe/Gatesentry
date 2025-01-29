@@ -1,10 +1,10 @@
 name: Build Docker Image
 
-on:
-  workflow_run:
-    workflows: ["Build a release"] # Name of the workflow in bump-version.yml
-    types:
-      - completed
+  #on:
+  #  workflow_run:
+  #    workflows: ["Build a release"] # Name of the workflow in bump-version.yml
+  #    types:
+  #      - completed
   # push:
   #   branches: ["master"]
   # pull_request:
