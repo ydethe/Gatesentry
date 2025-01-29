@@ -1,6 +1,6 @@
 name: Build a release
 
-  #on:
+on: push
   #  push:
   #    branches:
   #      - release-*
